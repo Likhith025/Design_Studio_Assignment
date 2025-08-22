@@ -1,12 +1,48 @@
-# React + Vite
+# UI Components Assignment – Uzence Design Studio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains two React UI components built with **ReactJS**, **TailwindCSS**, and **Storybook** for demonstration and documentation purposes. The project was created as part of the internship assignment.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Components
 
-## Expanding the ESLint configuration
+### 1. InputField
+A flexible input component with support for:
+- Label, placeholder, helper text, error message
+- States: disabled, invalid, loading
+- Variants: `filled`, `outlined`, `ghost`
+- Sizes: `sm`, `md`, `lg`
+- Optional: clear button, password toggle
+- Light & dark theme support (optional)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2. DataTable
+A responsive table component with:
+- Display of tabular data
+- Column sorting
+- Row selection (single/multiple)
+- Loading state
+- Empty state
+
+---
+
+## ⚙️ Tech Stack
+
+- ReactJS (v19)
+- TailwindCSS (v3)
+- Storybook (v9)
+- Vite (v7)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Likhith025/Design_Studio_Assignment.git
+cd Design_Studio_Assignment
+npm install
+npm run dev
+npm run storybook
+npm run build-storybook
+
+
